@@ -50,5 +50,19 @@ else
 {
 	System.out.println("lines are not equal");
 }
+	Integer input = (int) length;
+
+	Integer input1 = (int) length2;
+int result= Double.compare(length,length2);
+	System.out.println("result");
+if (result==0) {
+	System.out.println("Equals");
+}	
+else if (result>0)	{
+	 System.out.println("line1 is Greater");
 }
+else {
+	 System.out.println("line2 is Greater");
 }
+	}
+	}
